@@ -159,16 +159,16 @@ train:
   net_d_init_iters: 0
 
 # Uncomment these for validation
-# validation settings
-# val:
-#   val_freq: !!float 5e3
-#   save_img: True
+validation settings
+val:
+  val_freq: !!float 5e3
+  save_img: True
 
-#   metrics:
-#     psnr: # metric name
-#       type: calculate_psnr
-#       crop_border: 4
-#       test_y_channel: false
+  metrics:
+    psnr: # metric name
+      type: calculate_psnr
+      crop_border: 4
+      test_y_channel: false
 
 # logging settings
 logger:
